@@ -20,6 +20,21 @@
 #### Backend
   - 박지연 : 로그인, 회원가입, 게시판, 마이페이지
 
+## Preview
+#### 로그인 & 회원가입
+<p align="center">
+  <img width="280" alt="7" src="https://user-images.githubusercontent.com/71811780/108114998-e01c5000-70dc-11eb-97d2-de160f368d5a.gif">
+  &nbsp;&nbsp;&nbsp;
+  <img width="280" alt="7" src="https://user-images.githubusercontent.com/71811780/108112315-44d5ab80-70d9-11eb-8595-eda8af5d9d76.gif">
+</p>
+
+#### 게시판 & 마이페이지
+<p align="center">
+  <img width="280" alt="7" src="https://user-images.githubusercontent.com/71811780/108112312-43a47e80-70d9-11eb-8b93-b34216d96f22.gif">
+  &nbsp;&nbsp;&nbsp;
+  <img width="280" alt="7" src="https://user-images.githubusercontent.com/71811780/108112317-4606d880-70d9-11eb-939f-64ee09f484da.gif">
+</p>
+
 ## Features
 
 #### 로그인
@@ -44,20 +59,6 @@
 3. 내가 쓴 게시글 및 댓글 삭제 기능 추가
 4. 회원탈퇴 기능 추가
 
-## Preview
-#### 로그인 & 회원가입
-<p align="center">
-  <img width="280" alt="7" src="https://user-images.githubusercontent.com/71811780/108114998-e01c5000-70dc-11eb-97d2-de160f368d5a.gif">
-  &nbsp;&nbsp;&nbsp;
-  <img width="280" alt="7" src="https://user-images.githubusercontent.com/71811780/108112315-44d5ab80-70d9-11eb-8595-eda8af5d9d76.gif">
-</p>
-
-#### 게시판 & 마이페이지
-<p align="center">
-  <img width="280" alt="7" src="https://user-images.githubusercontent.com/71811780/108112312-43a47e80-70d9-11eb-8b93-b34216d96f22.gif">
-  &nbsp;&nbsp;&nbsp;
-  <img width="280" alt="7" src="https://user-images.githubusercontent.com/71811780/108112317-4606d880-70d9-11eb-939f-64ee09f484da.gif">
-</p>
 
 
 ## Requirements
