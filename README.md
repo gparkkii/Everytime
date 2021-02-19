@@ -10,7 +10,7 @@
 
 ## Contributors
 
-> 박지연 [Github](https://github.com/gparkkii)<br/>
+박지연 [Github](https://github.com/gparkkii)<br/>
 송보은 [Github](https://github.com/Boeun05)
 
 #### Frontend
