@@ -9,11 +9,14 @@
 학교 커뮤니티 서비스인 에브리타임 게시판 클론 프로젝트입니다. 3개월 간 스터디한 내용을 바탕으로 MongoDB, Express.js, React.js, Node.js 스택을 활용해 CRUD 기능을 구현하고 REST API 개발역량과 팀 협업 능력을 키우는 것을 목표로 했습니다.
 
 ## Contributors
+박지연 [Github](https://github.com/gparkkii)<br/>
+송보은 [Github](https://github.com/Boeun05)
+
 - Frontend
-  - 송보은 [Github](https://github.com/Boeun05) 
-  - 박지연 [Github](https://github.com/gparkkii)
+  - 송보은 : 로그인/ 회원가입/ 마이페이지
+  - 박지연 : 게시판/ 마이페이지
 - Backend
-  - 박지연 [Github](https://github.com/gparkkii)
+  - 박지연
 
 ## Features
 
