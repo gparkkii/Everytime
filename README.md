@@ -1,7 +1,9 @@
 # Everytime board clone
 <br/>
 <p align="center">
-  <img width="100" alt="7" src="https://user-images.githubusercontent.com/71836751/107924570-83bf1080-6fb6-11eb-927b-9b13b0c2423c.png">
+  <a href="https://everytime.kr/">
+    <img width="180" alt="7" src="https://user-images.githubusercontent.com/71811780/108621851-815a2c00-7478-11eb-88f4-be10f3320809.png">
+  </a>
 </p>
 
 ## Description
@@ -12,6 +14,9 @@
 
 박지연 [Github](https://github.com/gparkkii)<br/>
 송보은 [Github](https://github.com/Boeun05)
+
+#### UI/UX
+- 박지연, 송보은 
 
 #### Frontend
   - 송보은 : 로그인, 회원가입, 마이페이지
@@ -36,30 +41,33 @@
 </p>
 
 ## Features
+#### 공통
+1. HOC를 사용하여 페이지별 접근 인증
+2. Redux를 통한 상태관리
 
 #### 로그인
-1. 처음 접속 시 메인화면을 로그인으로 설정
-2. JWT를 이용하여 page authentication 설정
-3. 로그인 시 userId, userPw가 일치하는지 체크
-4. input에 필수 정보가 다 입력됐는지 확인
+1. JWT 인증방식을 이용하여 로그인
+2. 로그인 시 ID, PW의 일치여부 체크 
+3. 로그아웃 시 DB에 저장된 토큰 삭제 
+
 #### 회원가입
 1. 아이디 및 비밀번호 글자 수 제한
 2. 아이디 중복 체크
 3. 학교 검색 및 학번 추가 기능
-4. input에 필수 정보가 다 입력됐는지 확인 후 회원가입 승인
+4. input 필수정보 입력 여부 확인 후 회원가입 승인
+
 #### 게시판
-1. user profile에 설정한 닉네임과 학교 표시
-2. 게시판 글 작성 기능(300자 이내) 및 익명 기능 추가 
-3. 게시판 글 등록 시 작성시간 표시 및 desc로 정렬
-4. 등록된 게시글 좋아요 버튼 및 댓글 기능 추가
-5. 게시판 페이지네이션 기능 추가
+1. profile에 로그인한 user 정보 표시
+2. 게시판 글 작성 및 익명 기능 
+3. 게시글 작성시간 표시 및 desc 정렬
+4. 등록된 게시글에 좋아요 및 댓글 기능
+5. Pagination 구현
+
 #### 마이페이지
-1. 계정 정보 변경 기능 추가(닉네임, 이메일, 비밀번호 변경)
-2. 내가 쓴 게시글 및 댓글, 좋아요 한 글 관리 메뉴 추가
-3. 내가 쓴 게시글 및 댓글 삭제 기능 추가
-4. 회원탈퇴 기능 추가
-
-
+1. 계정 정보 변경 기능 (닉네임, 이메일, 비밀번호 변경)
+2. 내가 쓴 게시글, 댓글 및 좋아요 관리 메뉴
+3. 내가 쓴 게시글 및 댓글 삭제 기능
+4. 회원탈퇴 시 user의 모든 정보 삭제
 
 ## Requirements
 
@@ -78,12 +86,12 @@
   - Express.js
   
 ### Database
-- Backend 
-  - MongoDB 
-  
+- MongoDB 
+
 ### Library
 - Frontend
   - Redux
+  - React-Router
   - Styled-components
   - Axios
   - @material-ui/lab
@@ -92,4 +100,3 @@
   - Mongoose
   - Bcrypt
   - JWT
-
