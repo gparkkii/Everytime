@@ -106,3 +106,6 @@
   - Mongoose
   - Bcrypt
   - JWT
+
+### Communication
+- slack
