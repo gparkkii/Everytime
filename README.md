@@ -7,7 +7,7 @@
 </p>
 
 ## Description
-학교 커뮤니티 서비스인 에브리타임 게시판 클론 프로젝트입니다.MongoDB, Express.js, React.js, Node.js 스택을 활용해 CRUD 기능을 구현하고 REST API 개발역량과 팀 협업 능력을 키우는 것을 목표로 했습니다.
+학교 커뮤니티 서비스인 에브리타임 게시판 클론 프로젝트입니다. MongoDB, Express.js, React.js, Node.js 스택을 활용해 CRUD 기능을 구현하고 REST API 개발역량과 팀 협업 능력을 키우는 것을 목표로 했습니다.
 
 <br/>
 
@@ -30,7 +30,7 @@
 
 ## Features
 #### 공통
-1. HOC를 사용하여 페이지별 접근 인증
+1. HOC로 페이지별 접근 인증
 2. Redux를 통한 상태관리
 
 #### 로그인
